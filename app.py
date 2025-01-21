@@ -176,7 +176,7 @@ def apply_mask_and_plot(raw_image, predicted_mask):
 
 reader = easyocr.Reader(['en'])
 # Configure Google Generative AI
-genai.configure(api_key="AIzaSyAW970WKd0epIq5l8uXF-m2_dTCN826YRo")  # Replace with your API key
+genai.configure(api_key='GOOGLE_API_KEY')  
 
 input_points = [[[230, 360]]]
 
